@@ -4,6 +4,7 @@
 // Example
 // ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
 
+
 //solution
 function smash (words) {
    return words.join(' ').trim();
