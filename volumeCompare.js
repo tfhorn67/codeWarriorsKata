@@ -6,6 +6,7 @@
 //
 // If you can, try writing it in one line of code.
 
+
 //solution
 function findDifference(a, b) {
   //loading...
