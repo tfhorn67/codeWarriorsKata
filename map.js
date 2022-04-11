@@ -4,6 +4,7 @@
 //
 // [1, 2, 3] --> [2, 4, 6]
 
+
 //solution
 function maps(x){
   return x.map(element => element * 2)
