@@ -5,6 +5,7 @@
 //
 // * "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 
+
 //solution
 function stringToArray(string){
   // code code code
