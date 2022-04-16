@@ -19,6 +19,7 @@
 // Julia: nothing
 // Nim: none(int) (See options)
 
+
 //solution
 function firstNonConsecutive (arr) {
   for (let i = 1; i < arr.length; i++) {
