@@ -7,6 +7,7 @@
 // rps('scissors','rock') // Player 2 won!
 // rps('paper','paper') // Draw!
 
+
 //solution
 const rps = (p1, p2) => {
   if (p1 === p2) {
