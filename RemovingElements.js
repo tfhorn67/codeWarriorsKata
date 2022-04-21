@@ -6,6 +6,7 @@
 //
 // None of the arrays will be empty, so you don't have to worry about that!
 
+
 //solution
 function removeEveryOther(arr){
   //your code here
