@@ -9,6 +9,7 @@
 // Notes
 // The input array will always contain only positive numbers, and will never be empty or null.
 
+
 //Solution
 function squareOrSquareRoot(array) {
   array.forEach((element, index) => {
