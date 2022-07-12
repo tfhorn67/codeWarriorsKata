@@ -15,7 +15,7 @@
 //                      # citizen 2 has wealth 10
 //                      # citizen 3 has wealth 6
 //
-// redistribute_wealth(wealth) # mutates wealth list
+// redistribute_wealt0h(wealth) # mutates wealth list
 // wealth => [7, 7, 7] # wealth has now been equally redistributed
 // Info:
 //
