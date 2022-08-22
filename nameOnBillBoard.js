@@ -12,4 +12,4 @@ function billboard(name, price = 30){
     total += price;
   }
   return total;
-} 
+}
