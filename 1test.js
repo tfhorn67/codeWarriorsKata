@@ -1,7 +1,10 @@
-// Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+// Complete the solution so that it reverses the string passed into it.
+//
+// 'world'  =>  'dlrow'
+// 'word'   =>  'drow'
 
 
 //solution
-function even_or_odd(number) {
-  return number % 2 ? "Odd" : "Even"
+function solution(str){
+  return str.split('').reverse().join('');
 }
