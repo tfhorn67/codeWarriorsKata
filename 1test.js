@@ -1,28 +1,28 @@
-// Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
+// Our football team finished the championship. The result of each match look like "x:y". Results of all matches are recorded in the collection.
 //
-// Examples
-// Input: [1, 5.2, 4, 0, -1]
-// Output: 9.2
+// For example: ["3:1", "2:2", "0:1", ...]
 //
-// Input: []
-// Output: 0
+// Write a function that takes such collection and counts the points of our team in the championship. Rules for counting points for each match:
 //
-// Input: [-2.398]
-// Output: -2.398
+// if x > y: 3 points
+// if x < y: 0 point
+// if x = y: 1 point
+// Notes:
 //
-// Assumptions
-// You can assume that you are only given numbers.
-// You cannot assume the size of the array.
-// You can assume that you do get an array and if the array is empty, return 0.
-// What We're Testing
-// We're testing basic loops and math operations. This is for beginners who are just learning loops and math operations.
-// Advanced users may find this extremely easy and can easily write this in one line.
+// there are 10 matches in the championship
+// 0 <= x <= 4
+// 0 <= y <= 4
 
 
 //solution
-// Sum Numbers
-function sum (numbers) {
-    "use strict";
-
-    return numbers.reduce((previous, current) => previous + current, 0);
-};
+function points(games) {
+  return games.reduce((previous, current) => {
+    if (current[0] > current[2]) {
+      return previous + 3
+    } else if (current[0] == current[2]) {
+      return previous + 1
+    } else {
+      return previous
+    }
+  }, 0)
+}
