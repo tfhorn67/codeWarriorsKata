@@ -33,6 +33,10 @@ I can't pretend I understand the math here but I ran this algo on all vals < 100
 the output remains constant between perfect squares and then increments at each perfect square
 so there's a relationship and yep there I see it now. Its the sqrt of n rounded down.
 That is so satisfying.
+I assume we were not expected to intuit that  relationship but instead to do what I did
+where I wrote a brute force solution, ran it a bunch of small values, saw a pattern and
+distilled that pattern into an elegant solution despite the fact I definitely don't understand
+why that pattern exists.
 */
 function numOfOpenLockers(n) {
   return Math.floor(Math.sqrt(n));
